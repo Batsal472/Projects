@@ -1,0 +1,348 @@
+.ad p{
+    /* font-family: 'Cinzel', serif; */
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+margin: auto;
+padding: 8px;
+background-color: #D9D5CA;
+color: #4E4A42;
+}
+.header{
+    background-color: #4E4A42;
+}
+
+.header a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    transition: all .2s ease-in;
+}
+.header a:hover{
+    color: rgb(165, 142, 10);
+}
+.banner {
+    background: url(../images/layout3/banner.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.banner h2{
+    text-align: center;
+    margin: 60px auto;
+    padding: 50px 0 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    
+}
+.banner h1{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 90px;
+    padding-bottom: 90px;
+    color: white;
+}
+.banner span{
+    font-size: 40px;
+   
+}
+.banner .shop{
+    text-align: center;
+    margin: auto;
+    padding: 50px 0 200px 0;
+}
+.banner a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+    border: .1px solid white;
+    padding: 10px;
+    transition: all .1s ease-in;
+}
+.banner a:hover{
+    background-color: rgba(173, 167, 167, 0.37);
+    
+}
+.article1 {
+    padding-top: 50px;
+}
+.article1 hr{
+    width: 40%;
+    margin: auto;
+    padding-top: 20px;
+}
+.article1 img{
+    width: calc(100% - 20px);
+    padding: 10px;
+    /* height: 500px; */
+}
+.article1 h1{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 40px auto;
+    color: #4E4A42;
+    font-size: 30px;
+   
+    
+}
+.article1 h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    color: #4E4A42;
+    font-size: 15px;
+}
+.article1 p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    color: #4E4A42;
+    line-height: 2;
+    padding: 0 100px 0 100px;
+    
+    
+}
+.article1 .shop{
+    text-align: center;
+    margin: 100px auto;
+}
+.article1 a{
+    text-decoration: none;
+    color: #4E4A42;
+   
+}
+ .bannervideo{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+
+ }
+ .bannervideo .video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    z-index: -1;
+ }
+
+
+
+ .article2 {
+    padding-top: 150px;
+}
+.article2 hr{
+    width: 40%;
+    margin: auto;
+    padding-top: 20px;
+}
+.article2 img{
+    width: calc(100% - 20px);
+    padding: 10px;
+    /* height: 500px; */
+}
+.article2 h1{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 90px auto;
+    color: #4E4A42;
+    font-size: 30px;
+   
+    
+}
+.article2 h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    color: #4E4A42;
+    font-size: 15px;
+}
+.article2 p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 20px auto;
+    color: #4E4A42;
+    line-height: 2;
+    padding: 0 100px 0 100px;
+    
+    
+}
+.article2 .shop{
+    text-align: center;
+    margin: 100px auto;
+}
+.article2 a{
+    text-decoration: none;
+    color: #4E4A42;
+   
+}
+
+.article2 hr{
+    width: 20%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.article3{
+    background: url(../images/layout3/article3.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.article3 h1{
+
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 50px auto;
+    padding-top: 150px;
+    letter-spacing: .2cm;
+    line-height: 2;
+}
+
+.article3 p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px auto;
+    color: white;
+    padding-bottom: 200px;
+    font-size: 20px;
+}
+
+
+.article4 {
+    padding-top: 90px;
+    margin-top: 40px;
+}
+.article4 hr{
+    width: 40%;
+    margin: 20px auto;
+    padding-top: 40px;
+    color: #4E4A42;
+}
+.article4 img{
+    /* width: calc(100% - 20px);
+    padding: 10px;
+    height: 500px; */
+    width: 50%;
+    padding: 20px;
+}
+.article4 img:hover{
+    opacity: .5;
+}
+.article4 h1{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    margin: 90px auto 30px auto;
+    color: #4E4A42;
+    font-size: 30px;
+   
+    
+}
+.article4 h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 40px auto 20px auto;
+    color: #4E4A42;
+    font-size: 15px;
+}
+.article4 p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px auto;
+    color: #4E4A42;
+    line-height: 2.5;
+    padding: 0 100px 0 100px;
+    
+    
+}
+
+
+.contact{
+
+    padding: 40px 0 60px 0;
+    background-color: #D9D5CA;
+}
+.contact hr{
+    width: 10%;
+    margin: auto;
+}
+
+.contact h1{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    color: #4E4A42;
+
+}
+
+.contact p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 30px auto;
+    color: #4E4A42;
+    line-height: 2.5;
+    font-size: 14px;
+}
+
+.mail{
+    background-color: #4E4A42;
+    padding: 50px;
+}
+.mail h1{
+    color: #ADA9A0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 20px;
+}
+.mail p{
+    text-align: center;
+    padding-top: 20px;
+}
+.mail input{
+   
+    outline: none;
+    padding: 7px;
+    color: #ADA9A0;
+    background-color: #4E4A42;
+    border: .1px solid black;
+}
+.mail p a{
+    border: .1px solid black;
+    padding: 10px;
+    margin-left: 30px;
+   text-decoration: none;
+   color: white;
+   background-color: #272521B3 ;
+   transition: all .2s ease-in;
+
+}
+.mail p a:hover{
+    background-color: #4E4A42;
+}
+.faq{
+    background-color: #4E4A42;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.faq a{
+    color: #ADA9A0;
+    /* margin-left: 50px; */
+    font-size: 14px;
+
+}
+
+.caption{ 
+    text-align: center;
+    color: #ADA9A0;
+}
